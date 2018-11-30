@@ -1,9 +1,6 @@
 module cameronbeeler.exploring.ui {
-    requires javafx.base;
-    requires javafx.graphics;
-    requires javafx.fxml;
     requires javafx.controls;
-    requires cameronbeeler.exploring.common;
+    requires javafx.fxml;
     requires cameronbeeler.exploring.data;
 
     exports cameronbeeler.exploring.ui to javafx.graphics;
