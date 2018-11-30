@@ -1,14 +1,15 @@
-package sample;
+package cameronbeeler.exploring.ui;
 
+import cameronbeeler.exploring.common.Album;
+import cameronbeeler.exploring.common.Artist;
+import cameronbeeler.exploring.data.Datasource;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TableView;
-import sample.model.Album;
-import sample.model.Artist;
-import sample.model.Datasource;
+
 
 public class Controller {
 

@@ -1,19 +1,19 @@
-package sample;
+package cameronbeeler.exploring.ui;
 
+import cameronbeeler.exploring.data.Datasource;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import sample.model.Datasource;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("main.fxml"));
-        Parent root = loader.load();
+        FXMLLoader loader     = new FXMLLoader(getClass().getResource("/cameronbeeler/exploring/ui/main.fxml"));
+        Parent     root       = loader.load();
         Controller controller = loader.getController();
         controller.listArtists();
 
@@ -38,6 +38,6 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        launch(args);
+        Application.launch(args);
     }
 }

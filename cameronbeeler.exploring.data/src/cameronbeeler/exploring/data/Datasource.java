@@ -1,12 +1,11 @@
-package sample.model;
+package cameronbeeler.exploring.data;
 
+import cameronbeeler.exploring.common.Album;
+import cameronbeeler.exploring.common.Artist;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by timbuchalka on 9/12/16.
- */
 public class Datasource {
 
     private static final String DB_NAME = "music.db";

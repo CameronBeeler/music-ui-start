@@ -1,11 +1,8 @@
-package sample.model;
+package cameronbeeler.exploring.common;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
-/**
- * Created by timbuchalka on 9/12/16.
- */
 public class Artist {
 
     private SimpleIntegerProperty id;
